@@ -1,16 +1,17 @@
-### Hi there 👋
+## Pricila Oliveira - Intern Full-Stack Developer | Javascript | PHP | SQLServer | Python |
 
-<!--
-**PricilaOliveira/PricilaOliveira** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+*Contact Info*
 
-Here are some ideas to get you started:
+- View my [Linkedin](www.linkedin.com/in/pricilaoliveirarocha)
+- Email address: **pricilaoliveiras21@outlook.com.br**
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+*Technical Skills*
+
+- Focused Languages: Javascript and PHP
+  
+- Back-end: SQLServer
+- Front-end: HTML, CSS and other accessibility tools
+- Frameworks: CakePHP, JQuery
+- Other: Paired-programming, technical communication, Agile and SCRUM methodologies
+
+- Learning now: Python, React and Node
