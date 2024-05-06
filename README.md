@@ -7,7 +7,7 @@
 
 *Technical Skills*
 
-- Focused Languages: Javascript and PHP
+- Focused Languages: Javascript, PHP and Python.
   
 - Back-end: SQLServer
 - Front-end: HTML, CSS and other accessibility tools
