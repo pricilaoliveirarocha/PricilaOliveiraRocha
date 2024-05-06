@@ -1,9 +1,9 @@
-## Pricila Oliveira - Intern Full-Stack Developer | Javascript | PHP | SQLServer | Python |
+## Pricila Oliveira - Full-Stack Developer | Javascript | PHP | SQLServer | Python |
 
 *Contact Info*
 
-- View my [Linkedin](www.linkedin.com/in/pricilaoliveirarocha)
-- Email address: **pricilaoliveiras21@outlook.com.br**
+- View my **[Linkedin](https://www.linkedin.com/in/pricilaoliveirarocha)**
+- My email address is **pricilaoliveiras21@outlook.com.br**
 
 *Technical Skills*
 
