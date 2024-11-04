@@ -8,6 +8,7 @@ I bring a dynamic profile, a quick learning ability, and maximum commitment to a
 <b>Python and Database</b>.
 
 Email: pricilaoliveiras21@outlook.com.br
+<br>
 Portfolio: www.pudim.com.br 
 <br>
 # 🌐 Socials:
