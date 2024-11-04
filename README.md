@@ -1,6 +1,5 @@
 # 💫 About Me:
 <br clear="both">
-<img align="right" height="350" src="./imgs/octocat.png"  />
 
 👩🏻 I am currently interning on a project called PGEDigital at the Procuradoria do Estado do Rio de Janeiro, while simultaneously studying and developing several personal projects. <br><br>
 👩🏻‍💻 I am currently studying and deepening my knowledge in Big Data. <br><br>
