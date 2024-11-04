@@ -29,9 +29,9 @@
 
 # 📊 GitHub Stats:
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=pricilaoliveira&hide_title=false&hide_rank=true&show_icons=false&include_all_commits=true&count_private=true&disable_animations=false&theme=gotham&locale=en&hide_border=true&order=1" width="350" height="140" alt="stats graph"  />
-  <img src="https://streak-stats.demolab.com?user=pricilaoliveira&locale=en&mode=daily&theme=gotham&hide_border=true&border_radius=5&order=3" width="350" height="140" alt="streak graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=pricilaoliveira&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=gotham&hide_border=true&order=2" width="350" height="140" alt="languages graph"  />
+  <img src="https://github-readme-stats.vercel.app/api?username=pricilaoliveira&hide_title=false&hide_rank=true&show_icons=false&include_all_commits=true&count_private=true&disable_animations=false&theme=gotham&locale=en&hide_border=true&order=1" width="300" height="140" alt="stats graph"  />
+  <img src="https://streak-stats.demolab.com?user=pricilaoliveira&locale=en&mode=daily&theme=gotham&hide_border=true&border_radius=5&order=3" width="300" height="140" alt="streak graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=pricilaoliveira&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=gotham&hide_border=true&order=2" width="300" height="140" alt="languages graph"  />
 </div>
 
 <br clear="both">
