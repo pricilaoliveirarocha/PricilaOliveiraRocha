@@ -1,15 +1,13 @@
 # 💫 About Me:
 <br clear="both">
 
-👩🏻 I am currently interning on a project called PGEDigital at the Procuradoria do Estado do Rio de Janeiro, while simultaneously studying and developing several personal projects.
-<br><br>
-👩🏻‍💻 I am currently studying and deepening my knowledge in Big Data.
-<br><br>
-🎶 In my free time, I really enjoy listening to music, reading, and studying productivity and personal development, which helps me relax and stay creative.
-<br><br>
-⏳ My long-term dream is to perfect my skills in technology and establish a well-rounded career. I also dream of traveling around the world with my future family (yes, I dream of having a big family 😜).
+👩🏻 Nice to meet you! <br> 
+My name is Pricila. I was born in 2001 and am currently interning on a project called PGEDigital at the Procuradoria do Estado do Rio de Janeiro.
+I’m a student with a passion for reading, movies, and personal development, seeking an opportunity to grow in the field.<br>
+I bring a dynamic profile, a quick learning ability, and maximum commitment to all activities I undertake. Currently, I'm studying and deepening my knowledge in 
+<b>Python and Database</b>.
 <br>
-## 🌐 Socials:
+# 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/SEUUSERNAME/)&nbsp;
 [![E-mail](https://img.shields.io/badge/-Email-000?style=for-the-badge&logo=microsoft-outlook&logoColor=007BFF)](mailto:SEUEMAIL)&nbsp;
 [![Instagram](https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/SEUUSERNAME/)&nbsp;
