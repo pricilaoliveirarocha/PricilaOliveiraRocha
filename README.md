@@ -7,7 +7,7 @@ I’m a student with a passion for reading, movies, and personal development, se
 I bring a dynamic profile, a quick learning ability, and maximum commitment to all activities I undertake. Currently, I'm studying and deepening my knowledge in 
 <b>Python and Database</b>.
 
-Contact me at: pricilaoliveiras21@outlook.com.br
+My e-mail is: pricilaoliveiras21@outlook.com.br
 <br>
 # 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pricilaoliveirarocha/)&nbsp;
