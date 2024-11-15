@@ -30,5 +30,5 @@ Email: pricilaoliveiras21@outlook.com.br
 
 # 📊 GitHub Stats:
 <div align="left">
-<img src="https://streak-stats.demolab.com?user=pricilaoliveira&locale=en&mode=daily&theme=gotham&hide_border=true&border_radius=5&order=3" height="150" alt="streak graph"  /> <img src="https://github-readme-stats.vercel.app/api/top-langs?username=pricilaoliveira&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=gotham&hide_border=true&order=2" height="150" alt="languages graph"  />
+<img src="https://streak-stats.demolab.com?user=pricilaoliveirarocha&locale=en&mode=daily&theme=gotham&hide_border=true&border_radius=5&order=3" height="150" alt="streak graph"  /> <img src="https://github-readme-stats.vercel.app/api/top-langs?username=pricilaoliveirarocha&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=gotham&hide_border=true&order=2" height="150" alt="languages graph"  />
 </div>
