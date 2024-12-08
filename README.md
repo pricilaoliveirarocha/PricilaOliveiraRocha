@@ -7,7 +7,7 @@ I’m a student with a passion for reading, movies, and personal development, se
 I bring a dynamic profile, a quick learning ability, and maximum commitment to all activities I undertake. Currently, I'm studying and deepening my knowledge in 
 <b>Python and Database</b>.
 
-Portfolio: www.pudim.com.br 
+Portfolio: [Pricila Oliveira](https://pricilaoliveirarocha.github.io/simple-portfolio/)
 <br>
 Email: pricilaoliveiras21@outlook.com.br
 <br>
