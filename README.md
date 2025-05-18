@@ -1,7 +1,6 @@
 # 💫 About Me:
 👩🏻 Nice to meet you!  
-My name is Pricila. I was born in 2001 and I’m a student with a passion for reading, movies, and personal development, seeking an opportunity to grow in the tech field.  
-I bring a dynamic profile, a quick learning ability, and maximum commitment to all activities I undertake.  
+My name is Pricila. I was born in 2001 and I’m a student with a passion for reading, movies, and personal development, I bring a dynamic profile, a quick learning ability, and maximum commitment to all activities I undertake.  
 
 📫 **Email:** pricilaoliveiras21@outlook.com.br  
 
