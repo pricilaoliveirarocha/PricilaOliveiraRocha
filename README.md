@@ -4,11 +4,8 @@
 </header>
 <main>
     <div class="card-profile">
-        <picture>
-            <source media="(prefers-color-scheme: dark)" srcset="./profile/profile-card-dark.svg">
-            <source media="(prefers-color-scheme: light)" srcset="./profile/profile-card-light.svg">
-            <img align="right" src="./profile/profile-card-light.svg" alt="Profile card da Pricila Oliveira.">
-        </picture>
+        <img align="right" width="340" src="./profile/profile-card-light.svg#gh-light-mode-only" alt="Profile card light da Pricila Oliveira.">
+        <img align="right" width="340" src="./profile/profile-card-dark.svg#gh-dark-mode-only" alt="Profile card dark da Pricila Oliveira.">
     </div>
     <br>
     <br>
@@ -57,7 +54,7 @@
         <ul id="list" style="list-style: none;">
             <li>💼 I'm currently working at <a href="https://www.a2solutions.com.br/">A2 Solutions</a>.</li>
             <li>🎓 I hold a degree in Systems Analysis and Development.</li>
-            <li>📝 I write about technology and development in Portuguese on my <a href="#">personal blog</a>.</li>
+            <li>📝 I have a Portuguese <a href="#">personal blog</a>.</li>
             <li>📚 You can explore my projects on my <a href="#">portfolio website</a>.</li>
         </ul>
     </div>
