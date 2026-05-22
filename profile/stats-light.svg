@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="195" viewBox="0 0 420 195" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub stats placeholder</title>
+  <desc id="desc">A placeholder card indicating that GitHub stats will appear after the workflow runs.</desc>
+  <defs>
+    <linearGradient id="bgLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF7FB" />
+      <stop offset="100%" stop-color="#FFE4EF" />
+    </linearGradient>
+  </defs>
+  <rect width="420" height="195" rx="24" fill="url(#bgLight)" />
+  <rect x="12" y="12" width="396" height="171" rx="18" fill="none" stroke="#F6B6CD" stroke-width="2" />
+  <text x="28" y="44" fill="#D96C9D" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">
+    GitHub Stats
+  </text>
+  <text x="28" y="76" fill="#7A4A5E" font-family="Segoe UI, Arial, sans-serif" font-size="15">
+    The public stats endpoint is unavailable right now.
+  </text>
+  <text x="28" y="102" fill="#7A4A5E" font-family="Segoe UI, Arial, sans-serif" font-size="15">
+    This card will be replaced automatically after
+  </text>
+  <text x="28" y="124" fill="#7A4A5E" font-family="Segoe UI, Arial, sans-serif" font-size="15">
+    the first GitHub Actions run in your repository.
+  </text>
+  <rect x="28" y="146" width="180" height="26" rx="13" fill="#F48FB1" opacity="0.18" />
+  <text x="42" y="164" fill="#C95C90" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">
+    profile/stats-light.svg
+  </text>
+</svg>
