@@ -62,7 +62,7 @@
 <br><br>
 <footer>
     <p align="center">
-        <img src="./assets/twice-tt.gif" width="220" alt="TWICE TT sticker gif">
+        <img src="./assets/twice-tt.gif" align="center" width="220" alt="TWICE TT sticker gif">
     </p>
     <p class="social-media" align="center">
         <a id="linkedin" href="https://linkedin.com/in/pricilaoliveirarocha" target="_blank">
