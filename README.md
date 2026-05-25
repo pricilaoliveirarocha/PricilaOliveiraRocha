@@ -9,10 +9,7 @@
     </div>
     <br>
     <br>
-  
-<br clear="both">
-
-<div class="badges" style="margin-top: 30px;">
+<div class="badges">
     <p align="center">
         <picture id="javascript">
             <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-JavaScript-FF69B4?style=flat&logo=javascript&logoColor=white">
