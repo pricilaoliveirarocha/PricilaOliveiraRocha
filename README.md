@@ -3,9 +3,9 @@
   <p align="center"><sub>Full-Stack Developer focused on building reliable, efficient, and user-centered digital solutions. I enjoy solving problems through code, improving existing systems, and contributing to projects with clean, organized, and maintainable development practices.</sub></p>
 </header>
 <main>
-    <div class="card-profile" style="padding-bottom: 10px;">
-        <img align="right" width="340" src="./profile/profile-card-light.svg#gh-light-mode-only" alt="Profile card light da Pricila Oliveira.">
-        <img align="right" width="340" src="./profile/profile-card-dark.svg#gh-dark-mode-only" alt="Profile card dark da Pricila Oliveira.">
+    <div class="card-profile">
+        <img align="right" style="padding-bottom: 25px" width="340" src="./profile/profile-card-light.svg#gh-light-mode-only" alt="Profile card light da Pricila Oliveira.">
+        <img align="right" style="padding-bottom: 25px" width="340" src="./profile/profile-card-dark.svg#gh-dark-mode-only" alt="Profile card dark da Pricila Oliveira.">
     </div>
     <br>
     <br>
