@@ -111,6 +111,17 @@
   </p> 
 </footer>
 
-<div class="footer-links"><br> 
-  <a href="https://linkedin.com/in/pricilaoliveirarocha" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-FF69B4?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a><a href="https://instagram.com/pricilaoliveirarocha" target="_blank"><img src="https://img.shields.io/badge/Instagram-FF69B4?style=flat&logo=instagram&logoColor=white" alt="Instagram"></a><a href="https://www.pricilaoliveirarocha.com.br/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-FF69B4?style=flat&logo=googlechrome&logoColor=white" alt="Portfolio"></a><a href="https://www.blog.pricilaoliveirarocha.com.br/" target="_blank"><img src="https://img.shields.io/badge/Blog-FF69B4?style=flat&logo=hashnode&logoColor=white" alt="Blog"></a> </div>
- 
+<div align="center">
+  <a href="https://linkedin.com/in/pricilaoliveirarocha" target="_blank"><img
+            src="https://img.shields.io/badge/LinkedIn-FF69B4?style=flat&logo=linkedin&logoColor=white"
+            alt="LinkedIn"></a>
+  <a href="https://instagram.com/pricilaoliveirarocha" target="_blank"><img
+            src="https://img.shields.io/badge/Instagram-FF69B4?style=flat&logo=instagram&logoColor=white"
+            alt="Instagram"></a>
+  <a href="https://www.pricilaoliveirarocha.com.br/" target="_blank"><img
+            src="https://img.shields.io/badge/Portfolio-FF69B4?style=flat&logo=googlechrome&logoColor=white"
+            alt="Portfolio"></a>
+  <a href="https://www.blog.pricilaoliveirarocha.com.br/"
+        target="_blank"><img src="https://img.shields.io/badge/Blog-FF69B4?style=flat&logo=hashnode&logoColor=white"
+            alt="Blog"></a>
+</div>
