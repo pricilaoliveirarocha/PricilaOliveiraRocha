@@ -1,6 +1,10 @@
 <header>
   <h2 align="center">🌸 Hi, my name is Pricila Oliveira</h2>
-  <p align="center"><sub>Full-Stack Developer focused on building reliable, efficient, and user-centered digital solutions. I enjoy solving problems through code, improving existing systems, and contributing to projects with clean, organized, and maintainable development practices.</sub></p>
+  <p align="center"><sub>
+    🌸 Hi, I'm Pricila Oliveira
+Junior Python Backend Developer with 3+ years of experience in software development, system integrations and relational databases.
+Currently focused on Python, backend engineering, AI, LLM applications and intelligent automation.<br>
+✨ Building reliable APIs and automation tools while strengthening my foundations in software engineering.</sub></p>
 </header>
 <main>
     <div class="card-profile">
