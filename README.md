@@ -99,8 +99,8 @@
         <ul id="list" style="list-style: none;">
             <li>💼 I'm currently working at <a href="https://www.a2solutions.com.br/">A2 Solutions</a>.</li>
             <li>🎓 I hold a degree in Systems Analysis and Development.</li>
-            <li>📝 I have a Portuguese <a href="https://www.blog.pricilaoliveirarocha.com.br/">personal blog</a>.</li>
-            <li>📚 You can explore my projects on my <a href="https://www.pricilaoliveirarocha.com.br/">portfolio website</a>.</li>
+            <li>📝 I have a Portuguese/English blog in <a href="https://dev.to/pricilaoliveirarocha">Dev.to</a>.</li>
+            <li>📚 You can explore my projects on my <a href="https://www.pricilaoliveirarocha.com.br/">website</a>.</li>
         </ul>
     </div>
 </main>
