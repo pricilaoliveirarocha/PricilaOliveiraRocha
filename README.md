@@ -1,7 +1,7 @@
 <header>
   <h2 align="center">🌸 Hi, my name is Pricila Oliveira</h2>
   <p align="left"><sub>
-    👩‍💻 Junior Python Backend Developer with 3+ years of experience in software development, system integrations and relational databases.<br> 
+    👩‍💻 Junior Python Backend Developer with 2+ years of experience in software development, system integrations and relational databases.<br> 
     ✨ Currently focused on Python, Backend Engineering, AI and intelligent automation.<br> 
     🌷 Building reliable APIs and automation tools while strengthening my software engineering skills.</sub></p>
 </header>
