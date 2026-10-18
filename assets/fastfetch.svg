@@ -1,176 +1,132 @@
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="1000"
-  height="300"
-  viewBox="0 0 1000 300"
-  role="img"
-  aria-label="Technical profile of Pricila Oliveira"
-  font-family="Consolas,Menlo,monospace"
->
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="410" viewBox="0 0 1000 410" role="img" aria-labelledby="fastfetch-title fastfetch-description">
+  <title id="fastfetch-title">Pricila Oliveira technical profile</title>
+  <desc id="fastfetch-description">Animated terminal panel listing professional information and software engineering technologies.</desc>
+
   <defs>
-    <!-- PALETA: fundo escuro do painel. -->
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#030712" />
-      <stop offset=".62" stop-color="#0b1022" />
-      <stop offset="1" stop-color="#170820" />
+    <!-- PALETTE: only black, neon pink, white and neutral gray. -->
+    <linearGradient id="pinkLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FF1493" stop-opacity=".5"/>
+      <stop offset=".5" stop-color="#FF10F0"/>
+      <stop offset="1" stop-color="#FF1493" stop-opacity=".5"/>
     </linearGradient>
-
-    <!-- PALETA: bordas e detalhes neon. -->
-    <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#22d3ee" />
-      <stop offset=".5" stop-color="#7c3aed" stop-opacity=".45" />
-      <stop offset="1" stop-color="#ff3cac" />
-    </linearGradient>
-    <linearGradient id="rail" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#22d3ee" />
-      <stop offset=".5" stop-color="#8b5cf6" />
-      <stop offset="1" stop-color="#ff3cac" />
-    </linearGradient>
-
-    <!-- GRID ANIMADO: altere dur para controlar a velocidade. -->
-    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path
-        d="M30 0H0V30"
-        fill="none"
-        stroke="#53e3ff"
-        stroke-opacity=".04"
-      />
-      <animateTransform
-        attributeName="patternTransform"
-        type="translate"
-        from="0 0"
-        to="30 30"
-        dur="12s"
-        repeatCount="indefinite"
-      />
+    <radialGradient id="pinkField" cx="50%" cy="45%" r="70%">
+      <stop offset="0" stop-color="#FF1493" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#FF1493" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#FF1493" stroke-opacity=".04"/>
     </pattern>
-
-    <!-- Efeito de brilho usado no nome de usuário. -->
-    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="3" result="blur" />
+    <filter id="softGlow" x="-50%" y="-100%" width="200%" height="300%">
+      <feGaussianBlur stdDeviation="3.2" result="blur"/>
       <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-
-    <!-- Limita as animações às bordas arredondadas do painel. -->
-    <clipPath id="panel">
-      <rect width="1000" height="300" rx="15" />
+    <clipPath id="panelClip">
+      <rect x="1" y="1" width="998" height="408" rx="16"/>
+    </clipPath>
+    <!-- COMMAND REVEAL: increase the width if the command text is changed. -->
+    <clipPath id="commandReveal">
+      <rect x="424" y="12" width="0" height="24">
+        <animate attributeName="width" from="0" to="205" begin=".45s" dur=".9s" fill="freeze"/>
+      </rect>
     </clipPath>
   </defs>
 
-  <!-- FUNDO PRINCIPAL -->
-  <rect
-    x=".75"
-    y=".75"
-    width="998.5"
-    height="298.5"
-    rx="15"
-    fill="url(#bg)"
-    stroke="url(#border)"
-    stroke-width="1.5"
-  />
-
-  <!-- CAMADA ANIMADA: grid e faixa de varredura. -->
-  <g clip-path="url(#panel)">
-    <rect x="1" y="1" width="998" height="298" rx="14" fill="url(#grid)" />
-    <rect
-      x="-200"
-      y="36"
-      width="170"
-      height="234"
-      fill="url(#border)"
-      opacity=".035"
-      transform="skewX(-14)"
-    >
-      <animate
-        attributeName="x"
-        from="-200"
-        to="1120"
-        dur="12s"
-        repeatCount="indefinite"
-      />
+  <!-- TERMINAL SHELL -->
+  <rect x=".75" y=".75" width="998.5" height="408.5" rx="16" fill="#0D1117" stroke="#57102E" stroke-width="1.5"/>
+  <g clip-path="url(#panelClip)">
+    <rect x="1" y="1" width="998" height="408" fill="url(#grid)"/>
+    <ellipse cx="500" cy="210" rx="480" ry="280" fill="url(#pinkField)">
+      <animate attributeName="opacity" values=".45;.8;.45" dur="8s" repeatCount="indefinite"/>
+    </ellipse>
+    <rect x="-170" y="42" width="130" height="323" fill="#FF1493" opacity=".02" transform="skewX(-13)">
+      <animate attributeName="x" from="-170" to="1130" dur="14s" repeatCount="indefinite"/>
     </rect>
   </g>
 
-  <!-- DIVISORES DO TERMINAL -->
-  <path d="M0 38H1000M0 270H1000" stroke="#23304e" />
-  <rect x="18" y="54" width="2" height="200" rx="1" fill="url(#rail)" opacity=".9" />
-
-  <!-- BOTÕES DA JANELA -->
-  <circle cx="20" cy="19" r="5" fill="#ff5f57" />
-  <circle cx="36" cy="19" r="5" fill="#febc2e" />
-  <circle cx="52" cy="19" r="5" fill="#28c840" />
-
-  <!-- EDITE AQUI: usuário exibido na barra superior. -->
-  <text x="500" y="24" text-anchor="middle" font-size="12.5" fill="#94a3b8">
-    pricila@github: ~ $ fastfetch
-  </text>
-
-  <!-- EDITE AQUI: usuário exibido no título do perfil. -->
-  <g filter="url(#softGlow)">
-    <circle cx="35" cy="67" r="3" fill="#22d3ee">
-      <animate
-        attributeName="opacity"
-        values="1;.3;1"
-        dur="1.8s"
-        repeatCount="indefinite"
-      />
-    </circle>
-    <text x="50" y="73" font-size="19" font-weight="700" fill="#ff4fb3">
-      pri@github
-    </text>
+  <!-- WINDOW BAR -->
+  <path d="M0 43H1000M0 365H1000" stroke="#8B949E" stroke-opacity=".27"/>
+  <circle cx="24" cy="22" r="6" fill="#FF1493"/>
+  <circle cx="43" cy="22" r="6" fill="#FF1493" fill-opacity=".62"/>
+  <circle cx="62" cy="22" r="6" fill="#FF1493" fill-opacity=".28"/>
+  <text x="420" y="28" text-anchor="end" fill="#8B949E" font-family="Consolas,Menlo,monospace" font-size="13">pricila@github:~$</text>
+  <g clip-path="url(#commandReveal)">
+    <text x="430" y="28" fill="#FFFFFF" font-family="Consolas,Menlo,monospace" font-size="13">fastfetch</text>
   </g>
 
-  <!-- Linhas que organizam as duas colunas. -->
-  <path d="M34 92H474M526 92H966" stroke="url(#border)" stroke-opacity=".7" />
-  <path d="M500 102V264" stroke="#334155" stroke-dasharray="3 7" />
-
-  <!-- RÓTULOS: coluna profissional à esquerda. -->
-  <g fill="#53e3ff" font-size="13" font-weight="700" letter-spacing="1.2">
-    <text x="34" y="126">POSITION</text>
-    <text x="34" y="160">COMPANY</text>
-    <text x="34" y="194">EDUCATION</text>
-    <text x="34" y="246">LOCATION</text>
-
-    <!-- RÓTULOS: coluna técnica à direita. -->
-    <text x="526" y="126">BACKEND</text>
-    <text x="526" y="160">DATA</text>
-    <text x="526" y="194">FRONTEND</text>
-    <text x="526" y="228">EXPLORING</text>
+  <!-- PROFILE PROMPT -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="1.15s" dur=".7s" fill="freeze"/>
+    <rect x="22" y="65" width="3" height="42" rx="1.5" fill="#FF10F0" filter="url(#softGlow)"/>
+    <!-- EDIT HERE: terminal username. -->
+    <text x="42" y="94" fill="#FF1493" font-family="Consolas,Menlo,monospace" font-size="25" font-weight="700" filter="url(#softGlow)">pricila@github</text>
+    <rect x="252" y="73" width="3" height="25" fill="#FF10F0">
+      <animate attributeName="opacity" values="1;.15;1" dur="1.05s" repeatCount="indefinite"/>
+    </rect>
   </g>
 
-  <!--
-    EDITE AQUI: dados profissionais e técnicos.
-    Dentro de textos SVG, escreva &amp; no lugar do caractere "e comercial".
-  -->
-  <g fill="#f1f5f9" font-size="12.5">
-    <!-- Coluna esquerda: cargo, empresa, formação e localização. -->
-    <text x="164" y="126">Intern Software Engineer</text>
-    <text x="164" y="160">A2 Solutions</text>
-    <text x="164" y="190">Software Engineering · in progress</text>
-    <text x="164" y="211">Systems Analysis &amp; Development · graduate</text>
-    <text x="164" y="246">Rio de Janeiro · Brazil</text>
+  <!-- COLUMN GUIDES -->
+  <path d="M36 119H468M532 119H964" stroke="url(#pinkLine)" stroke-opacity=".55"/>
+  <path d="M500 127V342" stroke="#8B949E" stroke-opacity=".34" stroke-dasharray="4 7"/>
 
-    <!-- Coluna direita: tecnologias, dados, frontend e estudos. -->
-    <text x="650" y="126">PHP · Python · JavaScript · TypeScript · Node.js</text> <!-- BACK-END -->
-    <text x="650" y="160">SQL · MySQL · PostgreSQL</text> <!-- DATABASE -->
-    <text x="650" y="194">jQuery · Vue · React · Bootstrap 5</text> <!-- FRAMEWORKS AND LIBRARIES -->
-    <text x="650" y="228">AI · Machine Learning · Big Data</text> <!-- CURRENT STUDIES -->
+  <!-- LEFT COLUMN: professional profile. -->
+  <g font-family="Consolas,Menlo,monospace" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="1.65s" dur=".7s" fill="freeze"/>
+    <!-- EDIT HERE: role. -->
+    <text x="42" y="158" fill="#FF1493" font-size="14" font-weight="700" letter-spacing="2.6">ROLE</text>
+    <text x="180" y="158" fill="#FFFFFF" font-size="15">Software Engineer Intern</text>
   </g>
-  <!-- EDITE AQUI: texto do prompt inferior. -->
-  <text x="30" y="290" fill="#ff4fb3" font-size="13.5">
-    pricila<tspan fill="#dbeafe">@github:~ $ </tspan><tspan fill="#c4b5fd">hello, world.</tspan>
-  </text>
+  <g font-family="Consolas,Menlo,monospace" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="1.95s" dur=".7s" fill="freeze"/>
+    <!-- EDIT HERE: company. -->
+    <text x="42" y="207" fill="#FF1493" font-size="14" font-weight="700" letter-spacing="2.6">COMPANY</text>
+    <text x="180" y="207" fill="#FFFFFF" font-size="15">A2 Solutions</text>
+  </g>
+  <g font-family="Consolas,Menlo,monospace" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="2.25s" dur=".7s" fill="freeze"/>
+    <!-- EDIT HERE: education. -->
+    <text x="42" y="256" fill="#FF1493" font-size="14" font-weight="700" letter-spacing="2.6">EDUCATION</text>
+    <text x="180" y="256" fill="#FFFFFF" font-size="14.5">Software Engineering · In Progress</text>
+  </g>
+  <g font-family="Consolas,Menlo,monospace" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="2.55s" dur=".7s" fill="freeze"/>
+    <!-- EDIT HERE: location. -->
+    <text x="42" y="305" fill="#FF1493" font-size="14" font-weight="700" letter-spacing="2.6">LOCATION</text>
+    <text x="180" y="305" fill="#FFFFFF" font-size="15">Rio de Janeiro · Brazil</text>
+  </g>
 
-  <!-- Cursor piscante do terminal. -->
-  <rect x="361" y="277" width="8" height="15" rx="1" fill="#22d3ee">
-    <animate
-      attributeName="opacity"
-      values="1;.2;1"
-      dur="1.2s"
-      repeatCount="indefinite"
-    />
+  <!-- RIGHT COLUMN: technical stack. -->
+  <g font-family="Consolas,Menlo,monospace" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="1.8s" dur=".7s" fill="freeze"/>
+    <!-- EDIT HERE: backend technologies. -->
+    <text x="535" y="158" fill="#FF1493" font-size="14" font-weight="700" letter-spacing="2.6">BACKEND</text>
+    <text x="680" y="158" fill="#FFFFFF" font-size="14">PHP · Python · JavaScript · Node.js</text>
+  </g>
+  <g font-family="Consolas,Menlo,monospace" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="2.1s" dur=".7s" fill="freeze"/>
+    <!-- EDIT HERE: data technologies. -->
+    <text x="535" y="207" fill="#FF1493" font-size="14" font-weight="700" letter-spacing="2.6">DATA</text>
+    <text x="680" y="207" fill="#FFFFFF" font-size="14">SQL · MySQL · SQL Server</text>
+  </g>
+  <g font-family="Consolas,Menlo,monospace" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="2.4s" dur=".7s" fill="freeze"/>
+    <!-- EDIT HERE: frontend technologies. -->
+    <text x="535" y="256" fill="#FF1493" font-size="14" font-weight="700" letter-spacing="2.6">FRONTEND</text>
+    <text x="680" y="256" fill="#FFFFFF" font-size="14">Vue · React · Bootstrap</text>
+  </g>
+  <g font-family="Consolas,Menlo,monospace" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="2.7s" dur=".7s" fill="freeze"/>
+    <!-- EDIT HERE: subjects currently being explored. -->
+    <text x="535" y="305" fill="#FF1493" font-size="14" font-weight="700" letter-spacing="2.6">EXPLORING</text>
+    <text x="680" y="299" fill="#FFFFFF" font-size="13.4">Artificial Intelligence · Machine Learning</text>
+    <text x="680" y="321" fill="#8B949E" font-size="13.4">Data Science</text>
+  </g>
+
+  <!-- BOTTOM PROMPT -->
+  <text x="26" y="394" fill="#FF1493" font-family="Consolas,Menlo,monospace" font-size="14">pricila<tspan fill="#8B949E">@github:~$ </tspan></text>
+  <rect x="169" y="378" width="9" height="18" rx="1" fill="#FF10F0" filter="url(#softGlow)">
+    <animate attributeName="opacity" values="1;.12;1" dur="1.05s" repeatCount="indefinite"/>
   </rect>
 </svg>
