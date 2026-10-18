@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="175" viewBox="0 0 1000 175" role="img" aria-labelledby="title description">
   <title id="title">Pricila Oliveira</title>
-  <desc id="description">Neon technical header with Portfolio, Dev.to and LinkedIn buttons.</desc>
+  <desc id="description">Neon technical header displaying the name Pricila Oliveira.</desc>
   <defs>
     <!-- EDIT COLORS HERE -->
     <linearGradient id="pinkStroke" x1="0" y1="0" x2="1" y2="0">
