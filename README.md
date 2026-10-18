@@ -10,13 +10,13 @@
   <a href="https://www.linkedin.com/in/pricilaoliveirarocha/"><img src="https://img.shields.io/badge/LINKEDIN-0891B2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect with Pricila Oliveira on LinkedIn" /></a>
 </div>
 
-<br>
+<br />
 
 <div align="center">
   <img src="./assets/fastfetch.svg" width="100%" alt="Pricila Oliveira's technical profile in a futuristic terminal interface" />
 </div>
 
-<br>
+<br />
 
 <div align="center">
   <img src="./assets/contributions.svg" width="100%" alt="Animated GitHub-style contribution graph for Pricila Oliveira" />
