@@ -125,38 +125,39 @@
 
   <!-- Linhas que organizam as duas colunas. -->
   <path d="M34 92H474M526 92H966" stroke="url(#border)" stroke-opacity=".7" />
-  <path d="M500 102V246" stroke="#334155" stroke-dasharray="3 7" />
+  <path d="M500 102V264" stroke="#334155" stroke-dasharray="3 7" />
 
   <!-- RÓTULOS: coluna profissional à esquerda. -->
   <g fill="#53e3ff" font-size="12.5" font-weight="700" letter-spacing=".5">
     <text x="34" y="126">R O L E</text>
     <text x="34" y="160">C O M P A N Y</text>
-    <text x="34" y="194">E D U C A T I O N </text>
-    <text x="34" y="228">L O C A T I O N </text>
+    <text x="34" y="194">E D U C A T I O N</text>
+    <text x="34" y="246">L O C A T I O N</text>
 
     <!-- RÓTULOS: coluna técnica à direita. -->
     <text x="526" y="126">B A C K E N D</text>
     <text x="526" y="160">D A T A</text>
     <text x="526" y="194">F R O N T E N D</text>
-    <text x="526" y="228">N O W   D E E P I N G   I N</text>
+    <text x="526" y="228">E X P L O R I N G</text>
   </g>
 
   <!--
     EDITE AQUI: dados profissionais e técnicos.
     Dentro de textos SVG, escreva &amp; no lugar do caractere "e comercial".
   -->
-  <g fill="#f1f5f9" font-size="13.5">
+  <g fill="#f1f5f9" font-size="12.5">
     <!-- Coluna esquerda: cargo, empresa, formação e localização. -->
     <text x="164" y="126">Intern Software Engineer</text>
     <text x="164" y="160">A2 Solutions</text>
-    <text x="164" y="194">Gaduating in Software Engineering &amp; Graduated in Analysis and Development of Systems</text>
-    <text x="164" y="228">Rio de Janeiro - RJ</text>
+    <text x="164" y="190">Software Engineering · in progress</text>
+    <text x="164" y="211">Systems Analysis &amp; Development · graduate</text>
+    <text x="164" y="246">Rio de Janeiro · Brazil</text>
 
     <!-- Coluna direita: tecnologias, dados, frontend e estudos. -->
-    <text x="650" y="126">PHP, Python, Javascript &amp; Typescript, Node.js</text> <!-- BACK-END -->
-    <text x="650" y="160">SQL, MySQL, PostgreSQL</text> <!-- DATABASE -->
-    <text x="650" y="194">JQuery, Vue, React, Bootstrap 5</text> <!-- FRAMEWORKS AND LIBRARIES -->
-    <text x="650" y="228">IA, Machine Learning &amp; Bigdata</text> <!-- CURRENTLY STUDYS -->
+    <text x="650" y="126">PHP · Python · JavaScript · TypeScript · Node.js</text> <!-- BACK-END -->
+    <text x="650" y="160">SQL · MySQL · PostgreSQL</text> <!-- DATABASE -->
+    <text x="650" y="194">jQuery · Vue · React · Bootstrap 5</text> <!-- FRAMEWORKS AND LIBRARIES -->
+    <text x="650" y="228">AI · Machine Learning · Big Data</text> <!-- CURRENT STUDIES -->
   </g>
 
 
