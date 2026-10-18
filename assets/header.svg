@@ -24,7 +24,7 @@
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <clipPath id="nameReveal">
-      <rect x="190" y="63" width="0" height="66">
+      <rect x="175" y="78" width="0" height="76">
         <animate attributeName="width" from="0" to="620" begin=".9s" dur="1.25s" fill="freeze" calcMode="spline" keySplines=".22 1 .36 1"/>
       </rect>
     </clipPath>
@@ -72,13 +72,10 @@
     </circle>
   </g>
 
-  <!-- EDIT HERE: HEADER TEXT -->
+  <!-- EDIT HERE: NAME SHOWN IN THE HEADER -->
   <g clip-path="url(#nameReveal)" filter="url(#pinkGlow)">
-    <text x="500" y="104" text-anchor="middle" fill="#FFFFFF" font-family="Consolas,Menlo,monospace" font-size="43" font-weight="700" letter-spacing="5">PRICILA OLIVEIRA</text>
+    <text x="500" y="137" text-anchor="middle" fill="#FFFFFF" font-family="Consolas,Menlo,monospace" font-size="48" font-weight="700" letter-spacing="5">PRICILA OLIVEIRA</text>
   </g>
-  <text x="500" y="143" text-anchor="middle" fill="#FFFFFF" font-family="Consolas,Menlo,monospace" font-size="17" letter-spacing="6" opacity="0">SOFTWARE ENGINEER
-    <animate attributeName="opacity" from="0" to="1" begin="1.85s" dur=".65s" fill="freeze"/>
-  </text>
 
   <!-- BUTTON ROW: links and labels can be edited here. -->
   <a href="https://www.pricilaoliveirarocha.com.br/" xlink:href="https://www.pricilaoliveirarocha.com.br/" target="_blank">
