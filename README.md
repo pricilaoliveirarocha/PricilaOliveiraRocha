@@ -19,8 +19,8 @@
 ### `pricila@github ~ $ whoami`
 
 <div align="center">
-  <img src="./assets/avatar-ascii-typing.svg" width="49%" alt="Animated ASCII rendering of Pricila's avatar" />
-  <img src="./assets/fastfetch.svg" width="49%" alt="Fastfetch-style professional introduction card" />
+  <img src="./assets/avatar-ascii-typing.svg" width="39.5%" alt="Animated ASCII rendering of Pricila's avatar" />
+  <img src="./assets/fastfetch.svg" width="56.6%" alt="Fastfetch-style professional introduction card" />
 </div>
 
 <br />
