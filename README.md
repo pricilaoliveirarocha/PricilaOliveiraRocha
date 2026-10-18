@@ -5,13 +5,9 @@
   <br />
   <br />
 
-<div>
-  <a href="https://www.pricilaoliveirarocha.com.br/"><img src="https://img.shields.io/badge/PORTFOLIO-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Visit Pricila Oliveira's portfolio" /></a>
-  <a href="https://dev.to/pricilaoliveirarocha"><img src="https://img.shields.io/badge/DEV.TO-FF1493?style=for-the-badge&logo=devdotto&logoColor=white" alt="Read Pricila Oliveira on Dev.to" /></a>
-  <a href="https://www.linkedin.com/in/pricilaoliveirarocha/"><img src="https://img.shields.io/badge/LINKEDIN-0891B2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect with Pricila Oliveira on LinkedIn" /></a>
-</div>
-
-
+  <a href="https://www.pricilaoliveirarocha.com.br/"><img src="./assets/button-portfolio.svg" height="26" alt="Visit Pricila Oliveira's portfolio" /></a>
+  <a href="https://dev.to/pricilaoliveirarocha"><img src="./assets/button-devto.svg" height="26" alt="Read Pricila Oliveira on Dev.to" /></a>
+  <a href="https://www.linkedin.com/in/pricilaoliveirarocha/"><img src="./assets/button-linkedin.svg" height="26" alt="Connect with Pricila Oliveira on LinkedIn" /></a>
 </div>
 
 <br />
