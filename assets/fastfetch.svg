@@ -68,36 +68,24 @@
   <!-- COLUMN DIVIDER -->
   <path d="M500 124V338" stroke="#8B949E" stroke-opacity=".45" stroke-dasharray="4 8"/>
 
-  <!-- LEFT COLUMN: reference content -->
+  <!-- LEFT COLUMN: minimal personal information. Edit the values here. -->
   <g font-family="Consolas,Menlo,monospace" opacity="0">
     <animate attributeName="opacity" from="0" to="1" begin="1.45s" dur=".65s" fill="freeze"/>
-    <circle cx="44" cy="151" r="5" fill="#D9F8FF"/>
-    <text x="65" y="156" fill="#53E3FF" font-size="14" font-weight="700" letter-spacing="3">ROLE</text>
-    <!-- Person icon -->
-    <circle cx="191" cy="143" r="6" fill="#FF4FA7"/>
-    <path d="M180 159C181 148 201 148 202 159Z" fill="#FF4FA7"/>
-    <text x="228" y="156" fill="#FFFFFF" font-size="15">Intern Software Engineer</text>
+    <text x="45" y="161" fill="#53E3FF" font-size="13" font-weight="700" letter-spacing="2.5">ROLE</text>
+    <text x="175" y="161" fill="#FFFFFF" font-size="14.5">Intern Software Engineer</text>
   </g>
 
   <g font-family="Consolas,Menlo,monospace" opacity="0">
     <animate attributeName="opacity" from="0" to="1" begin="1.75s" dur=".65s" fill="freeze"/>
-    <circle cx="44" cy="233" r="5" fill="#D9F8FF"/>
-    <text x="65" y="238" fill="#53E3FF" font-size="14" font-weight="700" letter-spacing="3">COMPANY</text>
-    <!-- Briefcase icon -->
-    <rect x="179" y="225" width="23" height="16" rx="2" fill="#FF4FA7"/>
-    <path d="M185 225V220H196V225M179 231H202" fill="none" stroke="#080B11" stroke-width="2"/>
-    <text x="228" y="238" fill="#FFFFFF" font-size="15">A2 Solutions</text>
+    <text x="45" y="235" fill="#53E3FF" font-size="13" font-weight="700" letter-spacing="2.5">COMPANY</text>
+    <text x="175" y="235" fill="#FFFFFF" font-size="14.5">A2 Solutions</text>
   </g>
 
   <g font-family="Consolas,Menlo,monospace" opacity="0">
     <animate attributeName="opacity" from="0" to="1" begin="2.05s" dur=".65s" fill="freeze"/>
-    <circle cx="44" cy="305" r="5" fill="#D9F8FF"/>
-    <text x="65" y="310" fill="#53E3FF" font-size="14" font-weight="700" letter-spacing="3">EDUCATION</text>
-    <!-- Graduation cap icon -->
-    <path d="M176 298L191 290L206 298L191 306ZM181 302V312C188 317 196 317 202 312V302" fill="#FF4FA7"/>
-    <text x="228" y="282" fill="#FFFFFF" font-size="12.5">Graduanda em Engenharia de Software</text>
-    <text x="228" y="303" fill="#FFFFFF" font-size="12.5">Formada em Análise e</text>
-    <text x="228" y="324" fill="#FFFFFF" font-size="12.5">Desenvolvimento de Sistemas</text>
+    <text x="45" y="302" fill="#53E3FF" font-size="13" font-weight="700" letter-spacing="2.5">EDUCATION</text>
+    <text x="175" y="291" fill="#FFFFFF" font-size="12.8">Software Engineering · Undergraduate</text>
+    <text x="175" y="315" fill="#B7BDC8" font-size="12.2">Systems Analysis &amp; Development · Graduate</text>
   </g>
 
   <!-- RIGHT COLUMN: exactly the stack shown in the reference -->
