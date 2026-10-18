@@ -21,6 +21,3 @@
 <div align="center">
   <img src="./assets/contributions.svg" width="100%" alt="Animated GitHub-style contribution graph for Pricila Oliveira" />
 </div>
-
----
-
