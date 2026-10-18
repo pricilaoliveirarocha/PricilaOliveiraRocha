@@ -1,26 +1,258 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 180" width="1000" height="180" role="img" aria-label="Pricila Oliveira — Software Engineer">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 1000 180"
+  width="1000"
+  height="180"
+  role="img"
+  aria-label="Pricila Oliveira — Software Engineer"
+>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#030712"/><stop offset=".52" stop-color="#0b1024"/><stop offset="1" stop-color="#170820"/></linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset=".48" stop-color="#8b5cf6"/><stop offset="1" stop-color="#ff3cac"/></linearGradient>
-    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#dff9ff"><animate attributeName="stop-color" values="#dff9ff;#c4b5fd;#dff9ff" dur="4s" repeatCount="indefinite"/></stop><stop offset=".5" stop-color="#ffffff"/><stop offset="1" stop-color="#ffd6ef"><animate attributeName="stop-color" values="#ffd6ef;#a5f3fc;#ffd6ef" dur="4s" repeatCount="indefinite"/></stop></linearGradient>
-    <radialGradient id="cyanGlow"><stop offset="0" stop-color="#22d3ee" stop-opacity=".32"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
-    <radialGradient id="pinkGlow"><stop offset="0" stop-color="#ff3cac" stop-opacity=".28"/><stop offset="1" stop-color="#ff3cac" stop-opacity="0"/></radialGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#53e3ff" stroke-opacity=".05"/><animateTransform attributeName="patternTransform" type="translate" from="0 0" to="32 32" dur="8s" repeatCount="indefinite"/></pattern>
-    <filter id="glow" x="-30%" y="-100%" width="160%" height="300%"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <clipPath id="panel"><rect width="1000" height="180" rx="18"/></clipPath>
+    <!-- PALETA: gradiente escuro usado no fundo do header. -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#030712" />
+      <stop offset=".52" stop-color="#0b1024" />
+      <stop offset="1" stop-color="#170820" />
+    </linearGradient>
+
+    <!-- PALETA: ciano, violeta e rosa usados nos detalhes neon. -->
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" />
+      <stop offset=".48" stop-color="#8b5cf6" />
+      <stop offset="1" stop-color="#ff3cac" />
+    </linearGradient>
+
+    <!-- ANIMAÇÃO DO NOME: alterna suavemente as cores do texto principal. -->
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#dff9ff">
+        <animate
+          attributeName="stop-color"
+          values="#dff9ff;#c4b5fd;#dff9ff"
+          dur="4s"
+          repeatCount="indefinite"
+        />
+      </stop>
+      <stop offset=".5" stop-color="#ffffff" />
+      <stop offset="1" stop-color="#ffd6ef">
+        <animate
+          attributeName="stop-color"
+          values="#ffd6ef;#a5f3fc;#ffd6ef"
+          dur="4s"
+          repeatCount="indefinite"
+        />
+      </stop>
+    </linearGradient>
+
+    <!-- LUZES AMBIENTAIS que se movem atrás do conteúdo. -->
+    <radialGradient id="cyanGlow">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity=".32" />
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="pinkGlow">
+      <stop offset="0" stop-color="#ff3cac" stop-opacity=".28" />
+      <stop offset="1" stop-color="#ff3cac" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- GRID ANIMADO: altere dur para controlar a velocidade. -->
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path
+        d="M32 0H0V32"
+        fill="none"
+        stroke="#53e3ff"
+        stroke-opacity=".05"
+      />
+      <animateTransform
+        attributeName="patternTransform"
+        type="translate"
+        from="0 0"
+        to="32 32"
+        dur="8s"
+        repeatCount="indefinite"
+      />
+    </pattern>
+
+    <!-- EFEITO DE BRILHO aplicado ao nome. -->
+    <filter id="glow" x="-30%" y="-100%" width="160%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Limita as animações às bordas arredondadas do painel. -->
+    <clipPath id="panel">
+      <rect width="1000" height="180" rx="18" />
+    </clipPath>
   </defs>
-  <rect x=".75" y=".75" width="998.5" height="178.5" rx="18" fill="url(#bg)" stroke="#253253" stroke-width="1.5"/>
+
+  <!-- FUNDO PRINCIPAL -->
+  <rect
+    x=".75"
+    y=".75"
+    width="998.5"
+    height="178.5"
+    rx="18"
+    fill="url(#bg)"
+    stroke="#253253"
+    stroke-width="1.5"
+  />
+
+  <!-- CAMADA ANIMADA: luzes, grid e faixa de varredura. -->
   <g clip-path="url(#panel)">
-    <ellipse cx="80" cy="90" rx="230" ry="145" fill="url(#cyanGlow)"><animate attributeName="cx" values="80;260;80" dur="9s" repeatCount="indefinite"/><animate attributeName="opacity" values=".35;.75;.35" dur="6s" repeatCount="indefinite"/></ellipse>
-    <ellipse cx="920" cy="90" rx="230" ry="145" fill="url(#pinkGlow)"><animate attributeName="cx" values="920;740;920" dur="11s" repeatCount="indefinite"/><animate attributeName="opacity" values=".7;.3;.7" dur="7s" repeatCount="indefinite"/></ellipse>
-    <rect x="1" y="1" width="998" height="178" rx="17" fill="url(#grid)"/>
-    <rect x="-220" y="0" width="180" height="180" fill="url(#accent)" opacity=".05" transform="skewX(-18)"><animate attributeName="x" from="-220" to="1120" dur="7s" repeatCount="indefinite"/></rect>
+    <ellipse cx="80" cy="90" rx="230" ry="145" fill="url(#cyanGlow)">
+      <animate
+        attributeName="cx"
+        values="80;260;80"
+        dur="9s"
+        repeatCount="indefinite"
+      />
+      <animate
+        attributeName="opacity"
+        values=".35;.75;.35"
+        dur="6s"
+        repeatCount="indefinite"
+      />
+    </ellipse>
+
+    <ellipse cx="920" cy="90" rx="230" ry="145" fill="url(#pinkGlow)">
+      <animate
+        attributeName="cx"
+        values="920;740;920"
+        dur="11s"
+        repeatCount="indefinite"
+      />
+      <animate
+        attributeName="opacity"
+        values=".7;.3;.7"
+        dur="7s"
+        repeatCount="indefinite"
+      />
+    </ellipse>
+
+    <rect x="1" y="1" width="998" height="178" rx="17" fill="url(#grid)" />
+
+    <rect
+      x="-220"
+      y="0"
+      width="180"
+      height="180"
+      fill="url(#accent)"
+      opacity=".05"
+      transform="skewX(-18)"
+    >
+      <animate
+        attributeName="x"
+        from="-220"
+        to="1120"
+        dur="7s"
+        repeatCount="indefinite"
+      />
+    </rect>
   </g>
-  <path d="M24 28H210L226 16H774L790 28H976" fill="none" stroke="url(#accent)" stroke-opacity=".9" stroke-dasharray="180 26"><animate attributeName="stroke-dashoffset" from="412" to="0" dur="5s" repeatCount="indefinite"/></path>
-  <path d="M24 152H210L226 164H774L790 152H976" fill="none" stroke="url(#accent)" stroke-opacity=".9" stroke-dasharray="180 26"><animate attributeName="stroke-dashoffset" from="0" to="-412" dur="5s" repeatCount="indefinite"/></path>
-  <path d="M24 45V28H41M976 45V28H959M24 135V152H41M976 135V152H959" fill="none" stroke="#53e3ff" stroke-opacity=".75"/>
-  <g transform="translate(500 18)" fill="none" stroke="#a78bfa"><circle r="3" fill="#a78bfa"><animate attributeName="r" values="2;4;2" dur="1.8s" repeatCount="indefinite"/></circle><circle r="8" opacity=".65"><animate attributeName="r" values="5;14;5" dur="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;0;.8" dur="2.4s" repeatCount="indefinite"/></circle></g>
-  <g filter="url(#glow)"><text x="500" y="92" text-anchor="middle" fill="url(#title)" font-size="45" font-weight="700" letter-spacing="3" font-family="Consolas,Menlo,monospace">PRICILA OLIVEIRA</text></g>
-  <text x="500" y="124" text-anchor="middle" fill="#ff66bd" font-size="17" font-weight="700" letter-spacing="4" font-family="Consolas,Menlo,monospace">SOFTWARE ENGINEER</text>
-  <rect x="428" y="137" width="144" height="1" fill="url(#accent)" opacity=".8"><animate attributeName="width" values="40;144;40" dur="3s" repeatCount="indefinite"/><animate attributeName="x" values="480;428;480" dur="3s" repeatCount="indefinite"/></rect>
+
+  <!-- MOLDURA TÉCNICA SUPERIOR E INFERIOR -->
+  <path
+    d="M24 28H210L226 16H774L790 28H976"
+    fill="none"
+    stroke="url(#accent)"
+    stroke-opacity=".9"
+    stroke-dasharray="180 26"
+  >
+    <animate
+      attributeName="stroke-dashoffset"
+      from="412"
+      to="0"
+      dur="5s"
+      repeatCount="indefinite"
+    />
+  </path>
+  <path
+    d="M24 152H210L226 164H774L790 152H976"
+    fill="none"
+    stroke="url(#accent)"
+    stroke-opacity=".9"
+    stroke-dasharray="180 26"
+  >
+    <animate
+      attributeName="stroke-dashoffset"
+      from="0"
+      to="-412"
+      dur="5s"
+      repeatCount="indefinite"
+    />
+  </path>
+  <path
+    d="M24 45V28H41M976 45V28H959M24 135V152H41M976 135V152H959"
+    fill="none"
+    stroke="#53e3ff"
+    stroke-opacity=".75"
+  />
+
+  <!-- INDICADOR PULSANTE CENTRAL -->
+  <g transform="translate(500 18)" fill="none" stroke="#a78bfa">
+    <circle r="3" fill="#a78bfa">
+      <animate
+        attributeName="r"
+        values="2;4;2"
+        dur="1.8s"
+        repeatCount="indefinite"
+      />
+    </circle>
+    <circle r="8" opacity=".65">
+      <animate
+        attributeName="r"
+        values="5;14;5"
+        dur="2.4s"
+        repeatCount="indefinite"
+      />
+      <animate
+        attributeName="opacity"
+        values=".8;0;.8"
+        dur="2.4s"
+        repeatCount="indefinite"
+      />
+    </circle>
+  </g>
+
+  <!-- EDITE AQUI: nome exibido no header. -->
+  <g filter="url(#glow)">
+    <text
+      x="500"
+      y="92"
+      text-anchor="middle"
+      fill="url(#title)"
+      font-size="45"
+      font-weight="700"
+      letter-spacing="3"
+      font-family="Consolas,Menlo,monospace"
+    >PRICILA OLIVEIRA</text>
+  </g>
+
+  <!-- EDITE AQUI: cargo exibido abaixo do nome. -->
+  <text
+    x="500"
+    y="124"
+    text-anchor="middle"
+    fill="#ff66bd"
+    font-size="17"
+    font-weight="700"
+    letter-spacing="4"
+    font-family="Consolas,Menlo,monospace"
+  >SOFTWARE ENGINEER</text>
+
+  <!-- Linha animada abaixo do cargo. -->
+  <rect x="428" y="137" width="144" height="1" fill="url(#accent)" opacity=".8">
+    <animate
+      attributeName="width"
+      values="40;144;40"
+      dur="3s"
+      repeatCount="indefinite"
+    />
+    <animate
+      attributeName="x"
+      values="480;428;480"
+      dur="3s"
+      repeatCount="indefinite"
+    />
+  </rect>
 </svg>
