@@ -2,12 +2,9 @@
 
   <img align="left" src="./assets/header.svg" width="82%" alt="Pricila Oliveira — Software Engineer" />
 
-  <br />
-  <br />
-
-  <a href="https://www.pricilaoliveirarocha.com.br/"><img src="./assets/button-portfolio.svg" height="24" alt="Visit Pricila Oliveira's portfolio" /></a><br />
-  <a href="https://dev.to/pricilaoliveirarocha"><img src="./assets/button-devto.svg" height="24" alt="Read Pricila Oliveira on Dev.to" /></a><br />
-  <a href="https://www.linkedin.com/in/pricilaoliveirarocha/"><img src="./assets/button-linkedin.svg" height="24" alt="Connect with Pricila Oliveira on LinkedIn" /></a>
+  <a href="https://www.pricilaoliveirarocha.com.br/"><img src="./assets/button-portfolio.svg" width="16.1%" alt="Visit Pricila Oliveira's portfolio" /></a><br />
+  <a href="https://dev.to/pricilaoliveirarocha"><img src="./assets/button-devto.svg" width="16.1%" alt="Read Pricila Oliveira on Dev.to" /></a><br />
+  <a href="https://www.linkedin.com/in/pricilaoliveirarocha/"><img src="./assets/button-linkedin.svg" width="16.1%" alt="Connect with Pricila Oliveira on LinkedIn" /></a>
 
   <br clear="both" />
 </div>
