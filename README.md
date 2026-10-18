@@ -7,7 +7,7 @@
   <a href="https://www.linkedin.com/in/pricilaoliveirarocha/"><img src="./assets/button-linkedin.svg?v=20261018-1" width="31%" alt="Connect with Pricila Oliveira on LinkedIn" /></a>
   <br />
   <br />
-  <img src="./assets/fastfetch.svg?v=20261018-3" width="100%" alt="Developer Fastfetch" />
+  <img src="./assets/fastfetch.svg?v=20261018-4" width="100%" alt="Developer Fastfetch" />
   <br />
   <br />
   <img src="./assets/contributions.svg?v=20261018-1" width="100%" alt="GitHub Contributions" />

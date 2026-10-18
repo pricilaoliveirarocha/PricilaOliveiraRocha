@@ -71,21 +71,21 @@
   <!-- LEFT COLUMN: minimal personal information. Edit the values here. -->
   <g font-family="Consolas,Menlo,monospace" opacity="0">
     <animate attributeName="opacity" from="0" to="1" begin="1.45s" dur=".65s" fill="freeze"/>
-    <text x="45" y="161" fill="#53E3FF" font-size="13" font-weight="700" letter-spacing="2.5">ROLE</text>
-    <text x="175" y="161" fill="#FFFFFF" font-size="14.5">Intern Software Engineer</text>
+    <text x="45" y="162" fill="#53E3FF" font-size="13" font-weight="700" letter-spacing="2.5">ROLE</text>
+    <text x="175" y="162" fill="#FFFFFF" font-size="14.5">Intern Software Engineer</text>
   </g>
 
   <g font-family="Consolas,Menlo,monospace" opacity="0">
     <animate attributeName="opacity" from="0" to="1" begin="1.75s" dur=".65s" fill="freeze"/>
-    <text x="45" y="235" fill="#53E3FF" font-size="13" font-weight="700" letter-spacing="2.5">COMPANY</text>
-    <text x="175" y="235" fill="#FFFFFF" font-size="14.5">A2 Solutions</text>
+    <text x="45" y="238" fill="#53E3FF" font-size="13" font-weight="700" letter-spacing="2.5">COMPANY</text>
+    <text x="175" y="238" fill="#FFFFFF" font-size="14.5">A2 Solutions</text>
   </g>
 
   <g font-family="Consolas,Menlo,monospace" opacity="0">
     <animate attributeName="opacity" from="0" to="1" begin="2.05s" dur=".65s" fill="freeze"/>
-    <text x="45" y="302" fill="#53E3FF" font-size="13" font-weight="700" letter-spacing="2.5">EDUCATION</text>
-    <text x="175" y="291" fill="#FFFFFF" font-size="12.8">Software Engineering · Undergraduate</text>
-    <text x="175" y="315" fill="#B7BDC8" font-size="12.2">Systems Analysis &amp; Development · Graduate</text>
+    <text x="45" y="310" fill="#53E3FF" font-size="13" font-weight="700" letter-spacing="2.5">EDUCATION</text>
+    <text x="175" y="299" fill="#FFFFFF" font-size="12.8">Software Engineering · Undergraduate</text>
+    <text x="175" y="323" fill="#B7BDC8" font-size="12.2">Systems Analysis &amp; Development · Graduate</text>
   </g>
 
   <!-- RIGHT COLUMN: exactly the stack shown in the reference -->
