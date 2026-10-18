@@ -1,5 +1,6 @@
 <div align="center">
 
+<!-- Header com nome -->
 <img src="./assets/header.svg" width="100%" alt="Pricila Oliveira" />
 
 <br />
@@ -16,7 +17,11 @@
 ### `pricila@github ~ $ whoami`
 
 <div align="center">
+
+<!-- Introdução imagem -->
   <img src="./assets/avatar-ascii-typing.svg" width="39.5%" alt="Animated ASCII rendering of Pricila's avatar" />
+
+<!-- Introdução com Stacks e informaçoes -->
   <img src="./assets/fastfetch.svg" width="56.6%" alt="Fastfetch-style professional introduction card" />
 </div>
 
