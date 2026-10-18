@@ -5,9 +5,9 @@
   <br />
   <br />
 
-  <a href="https://www.pricilaoliveirarocha.com.br/"><img src="https://img.shields.io/badge/PORTF%C3%93LIO-FF1493?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Acesse o portfólio de Pricila Oliveira" /></a>
+  <a href="https://www.pricilaoliveirarocha.com.br/"><img src="https://img.shields.io/badge/PORTF%C3%93LIO-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Acesse o portfólio de Pricila Oliveira" /></a>
   <a href="https://dev.to/pricilaoliveirarocha"><img src="https://img.shields.io/badge/DEV.TO-FF1493?style=for-the-badge&logo=devdotto&logoColor=white" alt="Leia as publicações de Pricila Oliveira no Dev.to" /></a>
-  <a href="https://www.linkedin.com/in/pricilaoliveirarocha/"><img src="https://img.shields.io/badge/LINKEDIN-FF1493?style=for-the-badge&logo=linkedin&logoColor=white" alt="Conecte-se com Pricila Oliveira no LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/pricilaoliveirarocha/"><img src="https://img.shields.io/badge/LINKEDIN-0891B2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Conecte-se com Pricila Oliveira no LinkedIn" /></a>
 </div>
 
 ---
@@ -39,5 +39,5 @@
 
   <br />
 
-  <img src="https://komarev.com/ghpvc/?username=pricilaoliveirarocha&color=ff1493&style=flat-square&label=VISUALIZA%C3%87%C3%95ES+DO+PERFIL" alt="Visualizações do perfil de Pricila Oliveira" />
+  <img src="https://komarev.com/ghpvc/?username=pricilaoliveirarocha&color=7c3aed&style=flat-square&label=VISUALIZA%C3%87%C3%95ES+DO+PERFIL" alt="Visualizações do perfil de Pricila Oliveira" />
 </div>
