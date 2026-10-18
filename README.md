@@ -29,15 +29,3 @@
 
 ---
 
-### `pricila@github ~ $ cat anotacoes.txt`
-
-> Publico anotações de estudo e explorações técnicas no [**Dev.to**](https://dev.to/pricilaoliveirarocha) e reúno uma seleção de projetos em meu [**portfólio**](https://www.pricilaoliveirarocha.com.br/).
-
-<div align="center">
-
----
-
-  <br />
-
-  <img src="https://komarev.com/ghpvc/?username=pricilaoliveirarocha&color=7c3aed&style=flat-square&label=VISUALIZA%C3%87%C3%95ES+DO+PERFIL" alt="Visualizações do perfil de Pricila Oliveira" />
-</div>
