@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/header.svg?v=20261018-5" width="100%" alt="Pricila Oliveira" />
+  <img src="./assets/header.svg?v=20261018-6" width="100%" alt="Pricila Oliveira Rocha" />
   <br />
   <br />
   <a href="https://www.pricilaoliveirarocha.com.br/"><img src="./assets/button-portfolio.svg?v=20261018-1" width="31%" alt="Visit Pricila Oliveira's portfolio" /></a>
