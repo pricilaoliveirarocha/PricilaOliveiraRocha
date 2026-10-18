@@ -80,14 +80,18 @@ export function renderContributionSvg(calendar, username = DEFAULT_USERNAME) {
     .flatMap((week) => week.contributionDays)
     .sort((a, b) => a.date.localeCompare(b.date));
   const { current, longest } = calculateStreaks(days);
+  const dailyRecord = days.reduce(
+    (record, day) => Math.max(record, day.contributionCount),
+    0,
+  );
 
-  // CALENDAR GEOMETRY: one responsive 1000 px canvas, matching the other assets.
-  const xStart = 66;
-  const xEnd = 934;
+  // CALENDAR GEOMETRY: mirrors the compact terminal in the reference image.
+  const xStart = 74;
+  const xEnd = 938;
   const yStart = 80;
-  const rowStep = 18;
+  const rowStep = 16;
   const xStep = weeks.length > 1 ? (xEnd - xStart) / (weeks.length - 1) : 16;
-  const cellSize = Math.min(13, Math.max(10, xStep - 3));
+  const cellSize = Math.min(12, Math.max(9, xStep - 3));
 
   const monthLabels = [];
   let previousMonth = -1;
@@ -100,7 +104,7 @@ export function renderContributionSvg(calendar, username = DEFAULT_USERNAME) {
 
     if (month !== previousMonth && x - previousX >= 45) {
       monthLabels.push(
-        `<text x="${x.toFixed(1)}" y="68" fill="#8B949E" font-size="11">${MONTHS[month]}</text>`,
+        `<text x="${x.toFixed(1)}" y="68" fill="#B7BDC8" font-size="11">${MONTHS[month]}</text>`,
       );
       previousX = x;
     }
@@ -133,11 +137,11 @@ export function renderContributionSvg(calendar, username = DEFAULT_USERNAME) {
   const total = Number(calendar.totalContributions) || 0;
   const safeUsername = escapeXml(username);
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="285" viewBox="0 0 1000 285" role="img" aria-labelledby="contributions-title contributions-description">
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="250" viewBox="0 0 1000 250" role="img" aria-labelledby="contributions-title contributions-description">
   <title id="contributions-title">${safeUsername} GitHub contributions</title>
   <desc id="contributions-description">Dynamic animated contribution calendar with ${total} contributions, a current streak of ${current} days and a longest streak of ${longest} days.</desc>
   <defs>
-    <!-- PALETTE: black, neon pink, white and neutral gray only. -->
+    <!-- EDIT COLORS HERE: contribution levels follow the reference pink scale. -->
     <linearGradient id="pinkLine" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#FF1493" stop-opacity=".45"/>
       <stop offset=".5" stop-color="#FF10F0"/>
@@ -148,38 +152,39 @@ export function renderContributionSvg(calendar, username = DEFAULT_USERNAME) {
       <stop offset="1" stop-color="#FF1493" stop-opacity="0"/>
     </radialGradient>
     <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M28 0H0V28" fill="none" stroke="#FF1493" stroke-opacity=".04"/>
+      <path d="M28 0H0V28" fill="none" stroke="#53E3FF" stroke-opacity=".035"/>
     </pattern>
     <filter id="cellGlow" x="-80%" y="-80%" width="260%" height="260%">
       <feGaussianBlur stdDeviation="2.3" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <clipPath id="panelClip"><rect x="1" y="1" width="998" height="283" rx="16"/></clipPath>
-    <clipPath id="calendarClip"><rect x="58" y="76" width="892" height="124" rx="4"/></clipPath>
+    <clipPath id="panelClip"><rect x="1" y="1" width="998" height="248" rx="13"/></clipPath>
+    <clipPath id="calendarClip"><rect x="67" y="76" width="885" height="112" rx="4"/></clipPath>
   </defs>
 
   <!-- TERMINAL PANEL -->
-  <rect x=".75" y=".75" width="998.5" height="283.5" rx="16" fill="#0D1117" stroke="#57102E" stroke-width="1.5"/>
+  <rect x=".75" y=".75" width="998.5" height="248.5" rx="13" fill="#080B11" stroke="#FF1493" stroke-width="1.5"/>
   <g clip-path="url(#panelClip)">
-    <rect x="1" y="1" width="998" height="283" fill="url(#grid)"/>
-    <ellipse cx="500" cy="145" rx="470" ry="230" fill="url(#pinkField)">
+    <rect x="1" y="1" width="998" height="248" fill="url(#grid)"/>
+    <ellipse cx="500" cy="130" rx="470" ry="210" fill="url(#pinkField)">
       <animate attributeName="opacity" values=".45;.8;.45" dur="8s" repeatCount="indefinite"/>
     </ellipse>
   </g>
 
   <!-- WINDOW BAR -->
-  <path d="M0 43H1000M0 226H1000" stroke="#8B949E" stroke-opacity=".27"/>
-  <circle cx="24" cy="22" r="6" fill="#FF1493"/>
-  <circle cx="43" cy="22" r="6" fill="#FF1493" fill-opacity=".62"/>
-  <circle cx="62" cy="22" r="6" fill="#FF1493" fill-opacity=".28"/>
+  <path d="M0 43H1000M0 207H1000" stroke="#8B949E" stroke-opacity=".34"/>
+  <circle cx="24" cy="22" r="6" fill="#FF4560"/>
+  <circle cx="43" cy="22" r="6" fill="#FFD43B"/>
+  <circle cx="62" cy="22" r="6" fill="#00D77A"/>
   <text x="500" y="28" text-anchor="middle" fill="#FFFFFF" fill-opacity=".8" font-family="Consolas,Menlo,monospace" font-size="13">${safeUsername}@github:~$ ./contributions.sh</text>
+  <path d="M970 18H987V35" fill="none" stroke="#53E3FF" stroke-opacity=".5"/>
 
   <!-- MONTH AND WEEKDAY LABELS -->
   <g font-family="Consolas,Menlo,monospace">
     ${monthLabels.join("\n    ")}
-    <text x="51" y="108" text-anchor="end" fill="#8B949E" font-size="11">Mon</text>
-    <text x="51" y="144" text-anchor="end" fill="#8B949E" font-size="11">Wed</text>
-    <text x="51" y="180" text-anchor="end" fill="#8B949E" font-size="11">Fri</text>
+    <text x="56" y="104" text-anchor="end" fill="#B7BDC8" font-size="11">Mon</text>
+    <text x="56" y="136" text-anchor="end" fill="#B7BDC8" font-size="11">Wed</text>
+    <text x="56" y="168" text-anchor="end" fill="#B7BDC8" font-size="11">Fri</text>
   </g>
 
   <!-- DYNAMIC CELLS: generated from the GitHub GraphQL contribution calendar. -->
@@ -189,28 +194,29 @@ export function renderContributionSvg(calendar, username = DEFAULT_USERNAME) {
 
   <!-- LEFT-TO-RIGHT REVEAL, played once. -->
   <g clip-path="url(#calendarClip)" pointer-events="none">
-    <rect x="58" y="76" width="892" height="124" fill="#0D1117">
-      <animate attributeName="x" from="58" to="950" begin=".35s" dur="1.7s" fill="freeze" calcMode="spline" keySplines=".22 1 .36 1"/>
-      <animate attributeName="width" from="892" to="0" begin=".35s" dur="1.7s" fill="freeze" calcMode="spline" keySplines=".22 1 .36 1"/>
+    <rect x="67" y="76" width="885" height="112" fill="#080B11">
+      <animate attributeName="x" from="67" to="952" begin=".35s" dur="1.7s" fill="freeze" calcMode="spline" keySplines=".22 1 .36 1"/>
+      <animate attributeName="width" from="885" to="0" begin=".35s" dur="1.7s" fill="freeze" calcMode="spline" keySplines=".22 1 .36 1"/>
     </rect>
   </g>
 
   <!-- REAL METRICS: no placeholder or simulated values. -->
-  <text x="62" y="257" fill="#8B949E" font-family="Consolas,Menlo,monospace" font-size="12">
-    <tspan fill="#FF1493" font-weight="700">${total}</tspan> contributions
-    <tspan dx="14">current streak </tspan><tspan fill="#FF1493" font-weight="700">${current}</tspan> days
-    <tspan dx="14">longest streak </tspan><tspan fill="#FF1493" font-weight="700">${longest}</tspan> days
+  <text x="54" y="233" fill="#B7BDC8" font-family="Consolas,Menlo,monospace" font-size="11.5">
+    <tspan fill="#53E3FF" font-weight="700">${total}</tspan> contributions
+    <tspan dx="12">· current streak </tspan><tspan fill="#53E3FF" font-weight="700">${current}</tspan>
+    <tspan dx="12">· longest streak </tspan><tspan fill="#53E3FF" font-weight="700">${longest}</tspan>
+    <tspan dx="12">· daily record </tspan><tspan fill="#53E3FF" font-weight="700">${dailyRecord}</tspan>
   </text>
 
   <!-- LEGEND: exact contribution-level colors. -->
   <g font-family="Consolas,Menlo,monospace" font-size="11">
-    <text x="790" y="257" text-anchor="end" fill="#8B949E">Less</text>
-    <rect x="801" y="247" width="12" height="12" rx="2.5" fill="#161B22"/>
-    <rect x="819" y="247" width="12" height="12" rx="2.5" fill="#57102E"/>
-    <rect x="837" y="247" width="12" height="12" rx="2.5" fill="#A30D55"/>
-    <rect x="855" y="247" width="12" height="12" rx="2.5" fill="#FF1493" filter="url(#cellGlow)"/>
-    <rect x="873" y="247" width="12" height="12" rx="2.5" fill="#FF10F0" filter="url(#cellGlow)"/>
-    <text x="895" y="257" fill="#8B949E">More</text>
+    <text x="820" y="233" text-anchor="end" fill="#B7BDC8">Less</text>
+    <rect x="831" y="223" width="12" height="12" rx="2.5" fill="#161B22"/>
+    <rect x="849" y="223" width="12" height="12" rx="2.5" fill="#57102E"/>
+    <rect x="867" y="223" width="12" height="12" rx="2.5" fill="#A30D55"/>
+    <rect x="885" y="223" width="12" height="12" rx="2.5" fill="#FF1493" filter="url(#cellGlow)"/>
+    <rect x="903" y="223" width="12" height="12" rx="2.5" fill="#FF10F0" filter="url(#cellGlow)"/>
+    <text x="925" y="233" fill="#B7BDC8">More</text>
   </g>
 </svg>
 `;
