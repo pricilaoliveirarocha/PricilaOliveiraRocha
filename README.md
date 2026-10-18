@@ -12,15 +12,11 @@
 
 ---
 
-### `pricila@github ~ $ whoami`
-
 <div align="center">
   <img src="./assets/fastfetch.svg" width="100%" alt="Pricila Oliveira's technical profile in a futuristic terminal interface" />
 </div>
 
 ---
-
-### `pricila@github ~ $ ./contributions.sh`
 
 <div align="center">
   <img src="./assets/contributions.svg" width="100%" alt="Animated GitHub-style contribution graph for Pricila Oliveira" />
