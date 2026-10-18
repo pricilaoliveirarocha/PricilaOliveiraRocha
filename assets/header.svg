@@ -70,6 +70,6 @@
 
   <!-- EDIT HERE: NAME SHOWN IN THE HEADER -->
   <g clip-path="url(#nameReveal)" filter="url(#pinkGlow)">
-    <text x="500" y="112" text-anchor="middle" fill="#FFFFFF" font-family="Consolas,Menlo,monospace" font-size="48" font-weight="700" letter-spacing="5">PRICILA OLIVEIRA ROCHA</text>
+    <text x="500" y="112" text-anchor="middle" fill="#FFFFFF" font-family="Consolas,Menlo,monospace" font-size="46" font-weight="700" letter-spacing="5">PRICILA OLIVEIRA ROCHA</text>
   </g>
 </svg>
