@@ -2,6 +2,7 @@
   <title id="title">Pricila Oliveira</title>
   <desc id="description">Neon technical header displaying the name Pricila Oliveira.</desc>
   <defs>
+    <!-- MASTER TIMELINE: all looping effects use an 8-second cycle. -->
     <!-- EDIT COLORS HERE -->
     <linearGradient id="pinkStroke" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#FF1493" stop-opacity=".55"/>
@@ -32,10 +33,10 @@
   <g clip-path="url(#heroClip)">
     <rect x="1" y="1" width="998" height="148" fill="url(#grid)"/>
     <ellipse cx="500" cy="75" rx="460" ry="145" fill="url(#pinkField)">
-      <animate attributeName="opacity" values=".55;1;.55" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".55;1;.55" begin="0s" dur="8s" repeatCount="indefinite"/>
     </ellipse>
     <rect x="-170" y="1" width="120" height="148" fill="#FF1493" opacity=".035" transform="skewX(-15)">
-      <animate attributeName="x" from="-170" to="1120" dur="11s" repeatCount="indefinite"/>
+      <animate attributeName="x" from="-170" to="1120" begin="0s" dur="8s" repeatCount="indefinite"/>
     </rect>
   </g>
 
@@ -64,7 +65,7 @@
   <g transform="translate(500 13)">
     <circle r="10" fill="#080B11" stroke="#FF1493" stroke-opacity=".6"/>
     <circle r="4" fill="#FF1493" filter="url(#pinkGlow)">
-      <animate attributeName="opacity" values=".4;1;.4" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".4;1;.4" begin="0s" dur="2s" repeatCount="indefinite"/>
     </circle>
   </g>
 

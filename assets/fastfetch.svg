@@ -2,6 +2,7 @@
   <title id="title">Pricila Oliveira technical profile</title>
   <desc id="description">Neon fastfetch terminal containing professional information and software engineering technologies.</desc>
   <defs>
+    <!-- MASTER TIMELINE: all looping effects use an 8-second cycle. -->
     <!-- EDIT COLORS HERE -->
     <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#FF1493"/>
@@ -36,10 +37,10 @@
   <g clip-path="url(#panelClip)">
     <rect x="1" y="1" width="998" height="408" fill="url(#grid)"/>
     <ellipse cx="500" cy="210" rx="490" ry="280" fill="url(#pinkField)">
-      <animate attributeName="opacity" values=".5;.9;.5" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".5;.9;.5" begin="0s" dur="8s" repeatCount="indefinite"/>
     </ellipse>
     <rect x="-170" y="45" width="125" height="320" fill="#FF1493" opacity=".025" transform="skewX(-14)">
-      <animate attributeName="x" from="-170" to="1130" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="x" from="-170" to="1130" begin="0s" dur="8s" repeatCount="indefinite"/>
     </rect>
   </g>
 
@@ -61,7 +62,7 @@
     <!-- EDIT HERE: terminal username -->
     <text x="42" y="99" fill="#FF65BC" font-family="Consolas,Menlo,monospace" font-size="24" font-weight="700" filter="url(#pinkGlow)">pricila@github</text>
     <rect x="247" y="78" width="3" height="26" fill="#FFB8DE">
-      <animate attributeName="opacity" values="1;.15;1" dur="1.05s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;.15;1" begin="0s" dur="1s" repeatCount="indefinite"/>
     </rect>
   </g>
 
@@ -119,6 +120,6 @@
   <!-- BOTTOM PROMPT -->
   <text x="26" y="394" fill="#FF65BC" font-family="Consolas,Menlo,monospace" font-size="14.5">pricila<tspan fill="#FFFFFF">@github:~$ </tspan></text>
   <rect x="170" y="377" width="10" height="19" fill="#FF65BC" filter="url(#pinkGlow)">
-    <animate attributeName="opacity" values="1;.12;1" dur="1.05s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;.12;1" begin="0s" dur="1s" repeatCount="indefinite"/>
   </rect>
 </svg>

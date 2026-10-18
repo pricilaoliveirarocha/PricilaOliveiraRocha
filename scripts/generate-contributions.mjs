@@ -141,6 +141,7 @@ export function renderContributionSvg(calendar, username = DEFAULT_USERNAME) {
   <title id="contributions-title">${safeUsername} GitHub contributions</title>
   <desc id="contributions-description">Dynamic animated contribution calendar with ${total} contributions, a current streak of ${current} days and a longest streak of ${longest} days.</desc>
   <defs>
+    <!-- MASTER TIMELINE: all looping effects use an 8-second cycle. -->
     <!-- EDIT COLORS HERE: contribution levels follow the reference pink scale. -->
     <linearGradient id="pinkLine" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#FF1493" stop-opacity=".45"/>
@@ -167,8 +168,11 @@ export function renderContributionSvg(calendar, username = DEFAULT_USERNAME) {
   <g clip-path="url(#panelClip)">
     <rect x="1" y="1" width="998" height="248" fill="url(#grid)"/>
     <ellipse cx="500" cy="130" rx="470" ry="210" fill="url(#pinkField)">
-      <animate attributeName="opacity" values=".45;.8;.45" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".45;.8;.45" begin="0s" dur="8s" repeatCount="indefinite"/>
     </ellipse>
+    <rect x="-170" y="43" width="125" height="164" fill="#FF1493" opacity=".025" transform="skewX(-14)">
+      <animate attributeName="x" from="-170" to="1130" begin="0s" dur="8s" repeatCount="indefinite"/>
+    </rect>
   </g>
 
   <!-- WINDOW BAR -->
