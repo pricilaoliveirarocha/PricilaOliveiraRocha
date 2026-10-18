@@ -149,14 +149,14 @@
     <!-- Coluna esquerda: cargo, empresa, formação e localização. -->
     <text x="164" y="126">Intern Software Engineer</text>
     <text x="164" y="160">A2 Solutions</text>
-    <text x="164" y="194">Gaduating in Software Engineering & Graduated in Analysis and Development of Systems</text>
+    <text x="164" y="194">Gaduating in Software Engineering &amp; Graduated in Analysis and Development of Systems</text>
     <text x="164" y="228">Rio de Janeiro - RJ</text>
 
     <!-- Coluna direita: tecnologias, dados, frontend e estudos. -->
-    <text x="650" y="126">PHP, Python, Javascript & Typescript, Node.js</text> <!-- BACK-END -->
+    <text x="650" y="126">PHP, Python, Javascript &amp; Typescript, Node.js</text> <!-- BACK-END -->
     <text x="650" y="160">SQL, MySQL, PostgreSQL</text> <!-- DATABASE -->
     <text x="650" y="194">JQuery, Vue, React, Bootstrap 5</text> <!-- FRAMEWORKS AND LIBRARIES -->
-    <text x="650" y="228">IA, Machine Learning & Bigdata</text> <!-- CURRENTLY STUDYS -->
+    <text x="650" y="228">IA, Machine Learning &amp; Bigdata</text> <!-- CURRENTLY STUDYS -->
   </g>
 
 
