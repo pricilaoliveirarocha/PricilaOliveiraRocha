@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="50" viewBox="0 0 300 50" role="img" aria-labelledby="title">
+  <title id="title">Portfolio</title>
+  <defs>
+    <filter id="glow" x="-70%" y="-100%" width="240%" height="300%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="clip"><rect x="1" y="1" width="298" height="48" rx="8"/></clipPath>
+  </defs>
+  <rect x=".75" y=".75" width="298.5" height="48.5" rx="8" fill="#0D1117" stroke="#FF1493" stroke-width="1.5"/>
+  <g clip-path="url(#clip)">
+    <rect x="-80" y="1" width="65" height="48" fill="#FF1493" opacity=".09" transform="skewX(-15)">
+      <animate attributeName="x" from="-80" to="350" dur="5.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <path d="M39 16L29 25L39 34M51 16L61 25L51 34M49 13L41 37" fill="none" stroke="#FF1493" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+  <text x="150" y="30" text-anchor="middle" fill="#FFFFFF" font-family="Consolas,Menlo,monospace" font-size="13" font-weight="700" letter-spacing="1.4">PORTFOLIO</text>
+  <path d="M272 19L278 25L272 31" fill="none" stroke="#FF1493" stroke-width="2"/>
+</svg>
