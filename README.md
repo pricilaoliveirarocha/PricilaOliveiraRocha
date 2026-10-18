@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="./assets/header.svg" width="100%" alt="Pricila Oliveira — Desenvolvedora Backend, APIs REST, Integrações ERP e Dados" />
+  <img src="./assets/header.svg" width="100%" alt="Pricila Oliveira — Desenvolvedora Back-end, APIs REST, Integrações ERP e Dados" />
 
   <br />
   <br />
@@ -31,7 +31,7 @@
 
 ### `pricila@github ~ $ cat anotacoes.txt`
 
-> Publico aprendizados e conteúdos técnicos no [**Dev.to**](https://dev.to/pricilaoliveirarocha) e reúno projetos selecionados em meu [**portfólio**](https://www.pricilaoliveirarocha.com.br/).
+> Publico anotações de estudo e explorações técnicas no [**Dev.to**](https://dev.to/pricilaoliveirarocha) e reúno uma seleção de projetos em meu [**portfólio**](https://www.pricilaoliveirarocha.com.br/).
 
 <div align="center">
 
