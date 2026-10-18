@@ -81,32 +81,23 @@
 
   <g font-family="Consolas,Menlo,monospace" opacity="0">
     <animate attributeName="opacity" from="0" to="1" begin="1.75s" dur=".65s" fill="freeze"/>
-    <circle cx="44" cy="201" r="5" fill="#D9F8FF"/>
-    <text x="65" y="206" fill="#53E3FF" font-size="14" font-weight="700" letter-spacing="3">COMPANY</text>
+    <circle cx="44" cy="233" r="5" fill="#D9F8FF"/>
+    <text x="65" y="238" fill="#53E3FF" font-size="14" font-weight="700" letter-spacing="3">COMPANY</text>
     <!-- Briefcase icon -->
-    <rect x="179" y="193" width="23" height="16" rx="2" fill="#FF4FA7"/>
-    <path d="M185 193V188H196V193M179 199H202" fill="none" stroke="#080B11" stroke-width="2"/>
-    <text x="228" y="206" fill="#FFFFFF" font-size="15">A2 Solutions</text>
+    <rect x="179" y="225" width="23" height="16" rx="2" fill="#FF4FA7"/>
+    <path d="M185 225V220H196V225M179 231H202" fill="none" stroke="#080B11" stroke-width="2"/>
+    <text x="228" y="238" fill="#FFFFFF" font-size="15">A2 Solutions</text>
   </g>
 
   <g font-family="Consolas,Menlo,monospace" opacity="0">
     <animate attributeName="opacity" from="0" to="1" begin="2.05s" dur=".65s" fill="freeze"/>
-    <circle cx="44" cy="251" r="5" fill="#D9F8FF"/>
-    <text x="65" y="256" fill="#53E3FF" font-size="14" font-weight="700" letter-spacing="3">EDUCATION</text>
+    <circle cx="44" cy="305" r="5" fill="#D9F8FF"/>
+    <text x="65" y="310" fill="#53E3FF" font-size="14" font-weight="700" letter-spacing="3">EDUCATION</text>
     <!-- Graduation cap icon -->
-    <path d="M176 244L191 236L206 244L191 252ZM181 248V258C188 263 196 263 202 258V248" fill="#FF4FA7"/>
-    <text x="228" y="244" fill="#FFFFFF" font-size="12.5">Graduanda em Engenharia de Software</text>
-    <text x="228" y="263" fill="#FFFFFF" font-size="12.5">Formada em Análise e</text>
-    <text x="228" y="282" fill="#FFFFFF" font-size="12.5">Desenvolvimento de Sistemas</text>
-  </g>
-
-  <g font-family="Consolas,Menlo,monospace" opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="2.35s" dur=".65s" fill="freeze"/>
-    <circle cx="44" cy="316" r="5" fill="#D9F8FF"/>
-    <text x="65" y="321" fill="#53E3FF" font-size="14" font-weight="700" letter-spacing="3">LOCATION</text>
-    <!-- Location icon -->
-    <path d="M191 300C181 300 178 311 191 326C204 311 201 300 191 300ZM191 306A4 4 0 1 1 191 314A4 4 0 1 1 191 306Z" fill="#FF4FA7"/>
-    <text x="228" y="321" fill="#FFFFFF" font-size="15">Rio de Janeiro - RJ</text>
+    <path d="M176 298L191 290L206 298L191 306ZM181 302V312C188 317 196 317 202 312V302" fill="#FF4FA7"/>
+    <text x="228" y="282" fill="#FFFFFF" font-size="12.5">Graduanda em Engenharia de Software</text>
+    <text x="228" y="303" fill="#FFFFFF" font-size="12.5">Formada em Análise e</text>
+    <text x="228" y="324" fill="#FFFFFF" font-size="12.5">Desenvolvimento de Sistemas</text>
   </g>
 
   <!-- RIGHT COLUMN: exactly the stack shown in the reference -->
