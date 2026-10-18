@@ -76,7 +76,7 @@
     <!-- Person icon -->
     <circle cx="191" cy="143" r="6" fill="#FF4FA7"/>
     <path d="M180 159C181 148 201 148 202 159Z" fill="#FF4FA7"/>
-    <text x="228" y="156" fill="#FFFFFF" font-size="15">Software Engineer</text>
+    <text x="228" y="156" fill="#FFFFFF" font-size="15">Intern Software Engineer</text>
   </g>
 
   <g font-family="Consolas,Menlo,monospace" opacity="0">
@@ -95,8 +95,9 @@
     <text x="65" y="256" fill="#53E3FF" font-size="14" font-weight="700" letter-spacing="3">EDUCATION</text>
     <!-- Graduation cap icon -->
     <path d="M176 244L191 236L206 244L191 252ZM181 248V258C188 263 196 263 202 258V248" fill="#FF4FA7"/>
-    <text x="228" y="250" fill="#FFFFFF" font-size="14.5">Software Engineering</text>
-    <text x="228" y="272" fill="#FFFFFF" font-size="14.5">(Data Science · In Progress)</text>
+    <text x="228" y="244" fill="#FFFFFF" font-size="12.5">Graduanda em Engenharia de Software</text>
+    <text x="228" y="263" fill="#FFFFFF" font-size="12.5">Formada em Análise e</text>
+    <text x="228" y="282" fill="#FFFFFF" font-size="12.5">Desenvolvimento de Sistemas</text>
   </g>
 
   <g font-family="Consolas,Menlo,monospace" opacity="0">
@@ -105,44 +106,35 @@
     <text x="65" y="321" fill="#53E3FF" font-size="14" font-weight="700" letter-spacing="3">LOCATION</text>
     <!-- Location icon -->
     <path d="M191 300C181 300 178 311 191 326C204 311 201 300 191 300ZM191 306A4 4 0 1 1 191 314A4 4 0 1 1 191 306Z" fill="#FF4FA7"/>
-    <text x="228" y="321" fill="#FFFFFF" font-size="15">Rio de Janeiro · Brazil</text>
+    <text x="228" y="321" fill="#FFFFFF" font-size="15">Rio de Janeiro - RJ</text>
   </g>
 
   <!-- RIGHT COLUMN: exactly the stack shown in the reference -->
   <g font-family="Consolas,Menlo,monospace" opacity="0">
     <animate attributeName="opacity" from="0" to="1" begin="1.6s" dur=".65s" fill="freeze"/>
     <!-- Gear icon -->
-    <circle cx="542" cy="149" r="11" fill="#D9F8FF"/><circle cx="542" cy="149" r="4" fill="#080B11"/>
-    <path d="M542 134V139M542 159V164M527 149H532M552 149H557M532 139L536 143M548 155L552 159M552 139L548 143M536 155L532 159" stroke="#D9F8FF" stroke-width="4"/>
-    <text x="577" y="155" fill="#53E3FF" font-size="14" font-weight="700" letter-spacing="3">BACKEND</text>
-    <text x="718" y="155" fill="#FFFFFF" font-size="14">PHP · Python · Node.js</text>
+    <circle cx="542" cy="156" r="11" fill="#D9F8FF"/><circle cx="542" cy="156" r="4" fill="#080B11"/>
+    <path d="M542 141V146M542 166V171M527 156H532M552 156H557M532 146L536 150M548 162L552 166M552 146L548 150M536 162L532 166" stroke="#D9F8FF" stroke-width="4"/>
+    <text x="577" y="162" fill="#53E3FF" font-size="14" font-weight="700" letter-spacing="3">BACKEND</text>
+    <text x="718" y="162" fill="#FFFFFF" font-size="14">PHP · Python · Node.js</text>
   </g>
 
   <g font-family="Consolas,Menlo,monospace" opacity="0">
     <animate attributeName="opacity" from="0" to="1" begin="1.9s" dur=".65s" fill="freeze"/>
     <!-- Database icon -->
-    <ellipse cx="542" cy="194" rx="11" ry="5" fill="#D9F8FF"/>
-    <path d="M531 194V210C531 217 553 217 553 210V194M531 202C531 209 553 209 553 202" fill="none" stroke="#D9F8FF" stroke-width="2.5"/>
-    <text x="577" y="207" fill="#53E3FF" font-size="14" font-weight="700" letter-spacing="3">DATA</text>
-    <text x="718" y="207" fill="#FFFFFF" font-size="14">SQL · MySQL · PostgreSQL</text>
+    <ellipse cx="542" cy="225" rx="11" ry="5" fill="#D9F8FF"/>
+    <path d="M531 225V241C531 248 553 248 553 241V225M531 233C531 240 553 240 553 233" fill="none" stroke="#D9F8FF" stroke-width="2.5"/>
+    <text x="577" y="238" fill="#53E3FF" font-size="14" font-weight="700" letter-spacing="3">DATA</text>
+    <text x="718" y="238" fill="#FFFFFF" font-size="14">SQL · MySQL · PostgreSQL</text>
   </g>
 
   <g font-family="Consolas,Menlo,monospace" opacity="0">
     <animate attributeName="opacity" from="0" to="1" begin="2.2s" dur=".65s" fill="freeze"/>
     <!-- Monitor icon -->
-    <rect x="529" y="239" width="26" height="18" rx="1" fill="none" stroke="#D9F8FF" stroke-width="2.5"/>
-    <path d="M542 257V264M534 264H550" stroke="#D9F8FF" stroke-width="2.5"/>
-    <text x="577" y="256" fill="#53E3FF" font-size="14" font-weight="700" letter-spacing="3">FRONTEND</text>
-    <text x="718" y="256" fill="#FFFFFF" font-size="13.5">JavaScript · Vue · React · Bootstrap</text>
-  </g>
-
-  <g font-family="Consolas,Menlo,monospace" opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="2.5s" dur=".65s" fill="freeze"/>
-    <!-- Rocket icon -->
-    <path d="M535 317C535 302 544 293 557 291C556 304 548 313 535 317ZM535 317L528 324L531 314L535 310M542 317L548 324L547 313" fill="#D9F8FF"/>
-    <circle cx="549" cy="299" r="3" fill="#080B11"/>
-    <text x="577" y="320" fill="#53E3FF" font-size="14" font-weight="700" letter-spacing="3">EXPLORING</text>
-    <text x="718" y="320" fill="#FFFFFF" font-size="13.5">AI · Machine Learning · Big Data</text>
+    <rect x="529" y="293" width="26" height="18" rx="1" fill="none" stroke="#D9F8FF" stroke-width="2.5"/>
+    <path d="M542 311V318M534 318H550" stroke="#D9F8FF" stroke-width="2.5"/>
+    <text x="577" y="310" fill="#53E3FF" font-size="14" font-weight="700" letter-spacing="3">FRONTEND</text>
+    <text x="718" y="310" fill="#FFFFFF" font-size="13.5">JavaScript · Vue · React · Bootstrap</text>
   </g>
 
   <!-- BOTTOM PROMPT -->
