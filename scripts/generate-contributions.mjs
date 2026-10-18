@@ -176,7 +176,7 @@ export function renderContributionSvg(calendar, username = DEFAULT_USERNAME) {
   <circle cx="24" cy="22" r="6" fill="#FF4560"/>
   <circle cx="43" cy="22" r="6" fill="#FFD43B"/>
   <circle cx="62" cy="22" r="6" fill="#00D77A"/>
-  <text x="500" y="28" text-anchor="middle" fill="#FFFFFF" fill-opacity=".8" font-family="Consolas,Menlo,monospace" font-size="13">${safeUsername}@github:~$ ./contributions.sh</text>
+  <text x="500" y="28" text-anchor="middle" fill="#FFFFFF" fill-opacity=".8" font-family="Consolas,Menlo,monospace" font-size="13">pricila@github:~$ ./contributions.sh</text>
   <path d="M970 18H987V35" fill="none" stroke="#53E3FF" stroke-opacity=".5"/>
 
   <!-- MONTH AND WEEKDAY LABELS -->
