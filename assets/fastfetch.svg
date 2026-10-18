@@ -1,8 +1,8 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
   width="1000"
-  height="420"
-  viewBox="0 0 1000 420"
+  height="300"
+  viewBox="0 0 1000 300"
   role="img"
   aria-label="Technical profile of Pricila Oliveira"
   font-family="Consolas,Menlo,monospace"
@@ -56,7 +56,7 @@
 
     <!-- Limita as animações às bordas arredondadas do painel. -->
     <clipPath id="panel">
-      <rect width="1000" height="420" rx="15" />
+      <rect width="1000" height="300" rx="15" />
     </clipPath>
   </defs>
 
@@ -65,7 +65,7 @@
     x=".75"
     y=".75"
     width="998.5"
-    height="418.5"
+    height="298.5"
     rx="15"
     fill="url(#bg)"
     stroke="url(#border)"
@@ -74,12 +74,12 @@
 
   <!-- CAMADA ANIMADA: grid e faixa de varredura. -->
   <g clip-path="url(#panel)">
-    <rect x="1" y="1" width="998" height="418" rx="14" fill="url(#grid)" />
+    <rect x="1" y="1" width="998" height="298" rx="14" fill="url(#grid)" />
     <rect
       x="-200"
       y="36"
       width="170"
-      height="354"
+      height="234"
       fill="url(#border)"
       opacity=".035"
       transform="skewX(-14)"
@@ -95,8 +95,8 @@
   </g>
 
   <!-- DIVISORES DO TERMINAL -->
-  <path d="M0 38H1000M0 390H1000" stroke="#23304e" />
-  <rect x="18" y="54" width="2" height="314" rx="1" fill="url(#rail)" opacity=".9" />
+  <path d="M0 38H1000M0 270H1000" stroke="#23304e" />
+  <rect x="18" y="54" width="2" height="200" rx="1" fill="url(#rail)" opacity=".9" />
 
   <!-- BOTÕES DA JANELA -->
   <circle cx="20" cy="19" r="5" fill="#ff5f57" />
@@ -128,17 +128,17 @@
   <path d="M500 102V264" stroke="#334155" stroke-dasharray="3 7" />
 
   <!-- RÓTULOS: coluna profissional à esquerda. -->
-  <g fill="#53e3ff" font-size="12.5" font-weight="700" letter-spacing=".5">
-    <text x="34" y="126">R O L E</text>
-    <text x="34" y="160">C O M P A N Y</text>
-    <text x="34" y="194">E D U C A T I O N</text>
-    <text x="34" y="246">L O C A T I O N</text>
+  <g fill="#53e3ff" font-size="13" font-weight="700" letter-spacing="1.2">
+    <text x="34" y="126">POSITION</text>
+    <text x="34" y="160">COMPANY</text>
+    <text x="34" y="194">EDUCATION</text>
+    <text x="34" y="246">LOCATION</text>
 
     <!-- RÓTULOS: coluna técnica à direita. -->
-    <text x="526" y="126">B A C K E N D</text>
-    <text x="526" y="160">D A T A</text>
-    <text x="526" y="194">F R O N T E N D</text>
-    <text x="526" y="228">E X P L O R I N G</text>
+    <text x="526" y="126">BACKEND</text>
+    <text x="526" y="160">DATA</text>
+    <text x="526" y="194">FRONTEND</text>
+    <text x="526" y="228">EXPLORING</text>
   </g>
 
   <!--
@@ -159,41 +159,13 @@
     <text x="650" y="194">jQuery · Vue · React · Bootstrap 5</text> <!-- FRAMEWORKS AND LIBRARIES -->
     <text x="650" y="228">AI · Machine Learning · Big Data</text> <!-- CURRENT STUDIES -->
   </g>
-
-
-  <!-- DETALHE ANIMADO no canto inferior direito. -->
-  <g opacity=".65">
-    <circle cx="945" cy="274" r="3" fill="#22d3ee">
-      <animate
-        attributeName="r"
-        values="2;5;2"
-        dur="2s"
-        repeatCount="indefinite"
-      />
-    </circle>
-    <path
-      d="M945 274H966V353H918"
-      fill="none"
-      stroke="url(#border)"
-      stroke-dasharray="4 6"
-    >
-      <animate
-        attributeName="stroke-dashoffset"
-        from="20"
-        to="0"
-        dur="2s"
-        repeatCount="indefinite"
-      />
-    </path>
-  </g>
-
   <!-- EDITE AQUI: texto do prompt inferior. -->
-  <text x="30" y="410" fill="#ff4fb3" font-size="13.5">
+  <text x="30" y="290" fill="#ff4fb3" font-size="13.5">
     pricila<tspan fill="#dbeafe">@github:~ $ </tspan><tspan fill="#c4b5fd">hello, world.</tspan>
   </text>
 
   <!-- Cursor piscante do terminal. -->
-  <rect x="361" y="397" width="8" height="15" rx="1" fill="#22d3ee">
+  <rect x="361" y="277" width="8" height="15" rx="1" fill="#22d3ee">
     <animate
       attributeName="opacity"
       values="1;.2;1"
